@@ -32,8 +32,7 @@
 
 <body>
 
-    <div class="brand">Business Casual</div>
-    <div class="address-bar">3481 Melrose Place | Beverly Hills, CA 90210 | 123.456.7890</div>
+<?php include "header.php";?>
 
     <!-- Navigation -->
     <?php include 'nav.php';?>
@@ -53,10 +52,10 @@
                     <img class="img-responsive img-border img-full" src="img/slide-1.jpg" alt="">
                     <h2>Post Title
                         <br>
-                        <small>October 13, 2013</small>
+                        <small>October 13, 2021</small>
                     </h2>
                     <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                    <a href="#" class="btn btn-default btn-lg">Read More</a>
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Read More</button>
                     <hr>
                 </div>
                 <div class="col-lg-12 text-center">
